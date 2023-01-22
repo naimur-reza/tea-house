@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/e2fcca217c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -14,40 +18,46 @@
       >
         <div class="space-y-5 md:max-w-sm">
           <h1 class="text-6xl md:text-7xl font-semibold max-w-sm">
-            It's good tea time at The <span class="text-orange-500">Tea</span> House
+            It's good tea time at The
+            <span class="text-orange-500">Tea</span> House
           </h1>
           <p class="text-zinc-500">
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
           <button
-            class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-2 text-white rounded-lg mb-5"
+            class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-3 text-white rounded-lg mb-5"
           >
-            Explore More
+            Explore More span <img class="inline" src="./images/arrow.png" alt="">
           </button>
         </div>
         <div>
-          <img class="" src="./images/banner.png" alt="" />
+          <img class="mt-8" src="./images/banner.png" alt="" />
           <div
-            class="flex w-48 p-7 shadow-xl justify-center items-center rounded-lg mx-auto relative bottom-14 right-12"
+            class="flex gap-2 w-48 p-7 shadow-xl justify-center items-center rounded-lg mx-auto relative bottom-14 right-12"
           >
-            <div>
-              <h1 class="font-bold text-xl">5.00</h1>
-              <p>Trust Pilot Ratings</p>
+         
+            <div class="">
+              <h1 class="font-bold text-xl">5.00  <i class="fa-solid fa-star text-yellow-300"></i></h1>
+              <p class="text-slate-500">Trust Pilot Ratings</p>
             </div>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="text-center px-4 md:px-24 max-w-7xl mx-auto space-y-7 mt-28">
+      <section
+        class="text-center px-4 md:px-24 max-w-7xl mx-auto space-y-7 mt-28"
+      >
         <h1 class="text-4xl md:text-6xl font-bold">Our Featured Products</h1>
         <p>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
-        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-5 justify-items-center place-items-center">
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-4 gap-5 justify-items-center place-items-center"
+        >
           <div class="space-y-3 w-64 mt-20 rounded-lg p-4 shadow-lg">
             <div class="bg-slate-100 p-4 rounded-lg">
               <img class="mx-auto" src="./images/tea-1.png" alt="" />
@@ -307,10 +317,16 @@
           <div>
             <h1 class="text-3xl font-semibold">Subscribe to our newsletter</h1>
             <input
-              class="h-10 p-5 mt-4 border-b-2 border-black bg-transparent"
+              class="h-10 p-5 mt-4 border-b-2 border-black bg-transparent block"
               type="email"
               placeholder="Enter Adress"
             />
+           <div class="mt-3">
+            <i class=" text-2xl pl-2 fa-brands fa-facebook"></i>
+            <i class=" text-2xl pl-2 fa-brands fa-instagram"></i>
+            <i class=" text-2xl pl-2 fa-brands fa-twitter"></i>
+            <i class=" text-2xl pl-2 fa-brands fa-github"></i>
+           </div>
           </div>
         </div>
         <p class="mt-20 text-center font-semibold">
